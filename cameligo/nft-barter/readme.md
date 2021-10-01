@@ -11,7 +11,7 @@ This means each token address has a number of token_ids, and each token_id
 has its own associated supply.
 
 ## Storage example
-'''
+
 Map.literal [ 
   ( ("owner0 address" : owner_address), { 
 	Map.literal [
@@ -27,4 +27,4 @@ Map.literal [
 	]
    }); 
 ]
-'''
+
