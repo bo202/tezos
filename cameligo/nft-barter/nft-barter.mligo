@@ -3,6 +3,10 @@
 WARNING: 
 This contract should not run in a production environment.
 
+Some improvements can be made.  For example:
+-- Both parties in the exchange should sign before the exchange is allowed to go through.
+-- Any user should be able to remove themselves from the barter exchange.
+
 END WARNING
 --------------------------------------------------
 This contract allows two addresses to exchange the tokens they own. 
