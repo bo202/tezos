@@ -17,4 +17,4 @@ As for the token contract itself, there can be a separate token contract
 for each country or region to keep the big_map size manageable.
 
 To compile the contract:
-	sudo docker run --rm -v "$PWD":"$PWD" -w "$PWD" ligolang/ligo:0.19.0 compile-contract nft-vaccine.mligo main --output-file=nft-vaccine.tz
+   sudo docker run --rm -v "$PWD":"$PWD" -w "$PWD" ligolang/ligo:0.19.0 compile-contract nft-vaccine.mligo main --output-file=nft-vaccine.tz
