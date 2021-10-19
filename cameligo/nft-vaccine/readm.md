@@ -23,6 +23,7 @@ To compile the contract:
 
 Example storage:
 The key to the map is shown here as a wallet address, but can include other information to create a unique id for a person.
-Map.literal[
+
+    Map.literal[
 (("address representing a person": map_key), {is_issued=true; token_id=("address representing a person": map_key)} )
 ]
