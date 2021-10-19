@@ -19,3 +19,10 @@ for each country or region to keep the big_map size manageable.
 To compile the contract:
 
    sudo docker run --rm -v "$PWD":"$PWD" -w "$PWD" ligolang/ligo:0.19.0 compile-contract nft-vaccine.mligo main --output-file=nft-vaccine.tz
+   
+
+Example storage:
+The key to the map is shown here as a wallet address, but can include other information to create a unique id for a person.
+Map.literal[
+(("address representing a person": map_key), {is_issued=true; token_id=("address representing a person": map_key)} )
+]
